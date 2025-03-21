@@ -1,0 +1,13 @@
+{
+  "name": "jenkinsPractice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "yarn testcafe chrome JenkinsPractice.js"
+  },
+  "dependencies": {
+    "gherkin-testcafe": "^7.4.0",
+    "testcafe": "^3.7.2"
+  }
+}
