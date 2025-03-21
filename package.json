@@ -4,10 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "yarn testcafe chrome JenkinsPractice.js"
+    "test": "yarn testcafe chrome JenkinsPractice.js -r allure"
   },
   "dependencies": {
     "gherkin-testcafe": "^7.4.0",
-    "testcafe": "^3.7.2"
+    "testcafe": "^3.7.2",
+    "testcafe-reporter-allure": "^1.0.5"
   }
 }
